@@ -4,17 +4,16 @@ body {
     background-color: #e6e8e6;
 }
 
-
 header {
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
-    background-color: #553a41;
+    background-color: #6f8088;
     color: white;
 }
 
-.logo {
-    font-size: 28px;
+header h1 {
+    font-size: 30px;
 }
 
 nav a {
@@ -27,11 +26,17 @@ nav a:hover {
     color: #bb7e8c;
 }
 
-
 .hero {
+    height: 500px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url("https://luteradraudze.lv/wp-content/uploads/2017/02/skapis.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 80px;
-    background-color: #3a6ea5;
     color: white;
 }
 
@@ -39,16 +44,15 @@ nav a:hover {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #bb7e8c;
+    background-color: #ff4444;
     color: white;
     text-decoration: none;
     transition: 0.3s;
 }
 
 .btn:hover {
-    background-color: #553a41;
+    background-color: #b6c6ce;
 }
-
 
 .products {
     padding: 40px;
@@ -81,10 +85,9 @@ nav a:hover {
 }
 
 .new {
-    color: #bb7e8c;
+    color: rgb(255, 0, 0);
     font-weight: bold;
 }
-
 
 .search-bar {
     padding: 30px;
@@ -103,12 +106,11 @@ nav a:hover {
 }
 
 .filter:hover {
-    background-color: #bb7e8c;
+    background-color: #6f8088;
 }
 
-
 footer {
-    background-color: #553a41;
+    background-color: #566369;
     color: white;
     text-align: center;
     padding: 20px;
